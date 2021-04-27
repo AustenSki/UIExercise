@@ -1,3 +1,4 @@
+/* Giving the page body a style */
 body {
   display: flex;
   justify-content: space-evenly;
@@ -7,7 +8,7 @@ body {
   width: 100vw;
   overflow-x: hidden;
 }
-
+/* Being used to style Table headers and to give them a hover effect */
 #Columns {
   display: flex;
   justify-content: space-evenly;
@@ -16,6 +17,19 @@ body {
   border: solid black 2px;
   width: 75vw;
 }
+button:hover {
+  color: red;
+}
+button {
+  display: flex;
+  background: transparent;
+  border: none;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Styling for the contents of the table that were fetched in  */
 #TableContents {
   display: flex;
   justify-content: space-evenly;
@@ -29,6 +43,7 @@ body {
   color: turquoise;
   cursor: pointer;
 }
+/* Each of these Id's is used to style hand entered vehicle data */
 #addedAudi {
   display: flex;
   justify-content: space-evenly;
@@ -68,6 +83,7 @@ body {
   color: turquoise;
   cursor: pointer;
 }
+/* Styling for search bar */
 #searchBar {
   display: flex;
   justify-content: space-evenly;
@@ -76,16 +92,4 @@ body {
   width: 75vw;
   flex-direction: column;
   margin: 5vh;
-}
-
-button {
-  display: flex;
-  background: transparent;
-  border: none;
-  font-size: 35px;
-  font-weight: bold;
-  cursor: pointer;
-}
-button:hover {
-  color: red;
 }
